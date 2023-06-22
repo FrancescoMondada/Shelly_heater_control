@@ -1,7 +1,7 @@
  // this script allows to read consumption and production from a solarlog base, and set output
 
-// some global variables
-let SolarLogServer = "http://192.168.1.109/getjp";
+// some global variables, put here the solarlog server ip
+let SolarLogServer = "http://192.168.1.xxx/getjp";
 
 // Create JSON for request of consumption
 let SolarLogCmd = {
