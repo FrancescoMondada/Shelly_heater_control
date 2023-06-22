@@ -100,7 +100,7 @@ function process_result(result, error_code, error) {
       print("heating");
       Shelly.call(
         "HTTP.GET", {
-          "url": "http://192.168.1.203/relay/0/?turn=on",
+          "url": "http://192.168.1.yyy/relay/0/?turn=on",
           "timeout": timeout_http_connections,
         },
         function(result) {
@@ -113,7 +113,7 @@ function process_result(result, error_code, error) {
       print("NOT heating");
       Shelly.call(
         "HTTP.GET", {
-          "url": "http://192.168.1.203/relay/0/?turn=off",
+          "url": "http://192.168.1.yyy/relay/0/?turn=off",
           "timeout": timeout_http_connections,
         },
         function(result) {
