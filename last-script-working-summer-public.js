@@ -19,7 +19,7 @@ let history_solar = [0,0,0,0,0,0,0,0];
 let decision_solar = 0;
 let decision_solar_filtered = 0;
 let decision_lowtemp = 0;
-let timeout_http_connections = 60;
+let timeout_http_connections = 20;
 
 // Define timespan: minutes * 60 sec * 1000 milliseconds
 // we scan every minute
